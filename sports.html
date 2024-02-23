@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports!</title>
+    <link rel="stylesheet" href="sports.css">
+</head>
+<body>
+    <h1>Sports Trivia!</h1>
+    <form>
+        <legend>Which team is the newest NHL team, as of January 5 2024?</legend>
+        <label for="q1answer1"><input type="radio" id="q1answer1" name="teamName">The Seattle Kraken</label>
+        <br>
+		<label for="q1answer2"><input type="radio" id="q1answer2" name="teamName">The Las Vegas Golden Knights</label>
+		<br>
+        <label for="q1answer3"><input type="radio" id="q1answer3" name="teamName">The Montreal Canadiens</label>
+		<br>
+        <label for="q1answer4"><input type="radio" id="q1answer4" name="teamName">The Boston Bruins</label>
+        <br><br>
+        <legend>Which team won the 2023 Super Bowl?</legend>
+        <label for="q2answer1"><input type="radio" name="champTeamName" id="q2answer1">The LA Rams</label>
+        <br>
+        <label for="q2answer2"><input type="radio" name="champTeamName" id="q2answer2">The New England Patriots</label>
+        <br>
+        <label for="q2answer3"><input type="radio" name="champTeamName" id="q2answer3">The Kansas City Chiefs</label>
+        <br>
+        <label for="q2answer4"><input type="radio" name="champTeamName" id="q2answer4">The Philidelphia Eagles</label>
+        <br><br>
+        <legend>Who won the 2023 Ballon d'Or?</legend>
+        <label for="q3answer1"><input type="radio" name="playerName" id="q3answer1">Kylian Mbappe</label>
+        <br>
+        <label for="q3answer2"><input type="radio" name="playerName" id="q3answer2">Lionel Messi</label>
+        <br>
+        <label for="q3answer3"><input type="radio" name="playerName" id="q3answer3">Erling Haaland</label>
+        <br>
+        <label for="q3answer4"><input type="radio" name="playerName" id="q3answer4">Cristiano Ronaldo</label>
+        <br><br>
+        <legend>Which team won the 2023 World Series?</legend>
+        <label for="q4answer1"><input type="radio" name="worldSeriesTeam" id="q4answer1">The Texas Rangers</label>
+        <br>
+        <label for="q4answer2"><input type="radio" name="worldSeriesTeam" id="q4answer2">The Houston Astros</label>
+        <br>
+        <label for="q4answer3"><input type="radio" name="worldSeriesTeam" id="q4answer3">The Arizona D-Backs</label>
+        <br>
+        <label for="q4answer4"><input type="radio" name="worldSeriesTeam" id="q4answer4">The Las Vegas A's</label>
+        <br><br>
+        <legend>Which country won the 2022 FIFA World Cup?</legend>
+        <label for="q5answer1"><input type="radio" name="country" id="q5answer1">Qatar</label>
+        <br>
+        <label for="q5answer2"><input type="radio" name="country" id="q5answer2">Morocco</label>
+        <br>
+        <label for="q5answer3"><input type="radio" name="country" id="q5answer3">France</label>
+        <br>
+        <label for="q5answer4"><input type="radio" name="country" id="q5answer4">Argentina</label>
+        <br><br><br>
+        <button type="button" onclick="whenSubmitted()">Submit</button>
+    </form>
+    <p id="placeholder"></p>
+    <a href="index.html" id="exception">Back to main page</a>
+    <script src="sports.js"></script>
+</body>
+</html>

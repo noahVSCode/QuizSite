@@ -1,0 +1,30 @@
+.a-tag{
+    display: block;
+    line-height: 60px;
+    font-size: 25px;
+}
+a:hover{
+    color: purple;
+}
+body{
+    background-color: #ff660094;
+    text-align: center;
+}
+#triviaImg{
+    max-height: 31em;
+    max-width: 31em;
+    float: left;
+}
+@media screen and (max-width: 1400px){
+    html{
+        font-size: 20px
+    }
+    img{
+       width: 50%;
+       height: 75%;
+   }
+ 
+}
+form, h1{
+    padding-left: 50px;
+}
